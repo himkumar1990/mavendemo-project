@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cucumberSuite]">
+  <test thread-count="5" name="testBDD(failed)">
+    <classes>
+      <class name="com.demo.SeleniumPractice.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="feature"/>
+        </methods>
+      </class> <!-- com.demo.SeleniumPractice.TestRunner -->
+    </classes>
+  </test> <!-- testBDD(failed) -->
+</suite> <!-- Failed suite [cucumberSuite] -->
